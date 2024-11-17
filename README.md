@@ -26,6 +26,7 @@ The results are benchmarked against other healthcare datasets to assess the mode
 3. report : Contains documentation on our project
 4. TSADH : Contains code using LSTM Autoencoders
 5. autoencoders : Contains code using Standard Autoencoders
+6. README.md: Project overview and instructions (this file).
 ---
 
 ## **Training Results**
