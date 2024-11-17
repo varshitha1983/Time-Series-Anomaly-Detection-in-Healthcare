@@ -24,6 +24,7 @@ The results are benchmarked against other healthcare datasets to assess the mode
 This section presents the results and analyses from the training of the **LSTM Autoencoders** and **Standard Autoencoders** on the **ECG5000 dataset**.
 
 ### **Training Loss Curves**
+Training Loss Curve for LSTM Autoencoders and Standard Autoencoders are shown below respectively:
 <div style="display: flex; flex-wrap: wrap; gap: 20px;">
     <img src="images/trainloss-lstm.png" alt="Training Loss Curve for LSTM Autoencoders" width="400">
     <img src="images/loss-ae.png" alt="Training Loss Curve for Standard Autoencoders" width="400">
@@ -34,6 +35,7 @@ This section presents the results and analyses from the training of the **LSTM A
 ### **Loss Value Distributions**
 
 #### LSTM Autoencoders (10 Epochs):
+Normal Data Loss and Anomalous Data Loss using LSTM Autoencoders are shown below:
 <div style="display: flex; flex-wrap: wrap; gap: 20px;">
     <img src="images/normalloss-lstm.png" alt="Normal Data Loss - LSTM" width="400">
     <img src="images/anomalyloss-lstm.png" alt="Anomalous Data Loss - LSTM" width="400">
@@ -42,6 +44,7 @@ This section presents the results and analyses from the training of the **LSTM A
 ---
 
 #### Standard Autoencoders (28 Epochs):
+Normal Data Loss and Anomalous Data Loss using Standard Autoencoders are shown below:
 <div style="display: flex; flex-wrap: wrap; gap: 20px;">
     <img src="images/normalloss-ae.png" alt="Normal Data Loss - AE" width="400">
     <img src="images/anomalyloss-ae.png" alt="Anomalous Data Loss - AE" width="400">
