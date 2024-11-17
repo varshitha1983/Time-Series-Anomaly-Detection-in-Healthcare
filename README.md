@@ -87,11 +87,3 @@ This project demonstrates the effectiveness of deep learning models, particularl
 
 ---
 
-### **Acknowledgments**
-- **ECG5000 dataset** for providing the dataset used in this project.
-- **TensorFlow** and **Keras** for the deep learning framework.
-
----
-
-**Contact**: [Your Contact Information or Links]
-
