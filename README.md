@@ -24,44 +24,37 @@ The results are benchmarked against other healthcare datasets to assess the mode
 This section presents the results and analyses from the training of the **LSTM Autoencoders** and **Standard Autoencoders** on the **ECG5000 dataset**.
 
 ### **Training Loss Curves**
-
-#### LSTM Autoencoders:
-![Training Loss Curve for LSTM Autoencoders](images/trainloss-lstm.png)
-
-#### Standard Autoencoders:
-![Training Loss Curve for Standard Autoencoders](images/loss-ae.png)
+<div style="display: flex; flex-wrap: wrap; gap: 20px;">
+    <img src="images/trainloss-lstm.png" alt="Training Loss Curve for LSTM Autoencoders" width="400">
+    <img src="images/loss-ae.png" alt="Training Loss Curve for Standard Autoencoders" width="400">
+</div>
 
 ---
 
 ### **Loss Value Distributions**
 
 #### LSTM Autoencoders (10 Epochs):
+<div style="display: flex; flex-wrap: wrap; gap: 20px;">
+    <img src="images/normalloss-lstm.png" alt="Normal Data Loss - LSTM" width="400">
+    <img src="images/anomalyloss-lstm.png" alt="Anomalous Data Loss - LSTM" width="400">
+</div>
 
-- **Normal Data:**
-  ![Loss Distribution for Normal Data - LSTM](images/normalloss-lstm.png)
-
-- **Anomalous Data:**
-  ![Loss Distribution for Anomalous Data - LSTM](images/anomalyloss-ae.png)
+---
 
 #### Standard Autoencoders (28 Epochs):
-
-- **Normal Data:**
-  ![Loss Distribution for Normal Data - AE](images/normalloss-lstm.png)
-
-- **Anomalous Data:**
-  ![Loss Distribution for Anomalous Data - AE](images/anomalyloss-ae.png)
+<div style="display: flex; flex-wrap: wrap; gap: 20px;">
+    <img src="images/normalloss-ae.png" alt="Normal Data Loss - AE" width="400">
+    <img src="images/anomalyloss-ae.png" alt="Anomalous Data Loss - AE" width="400">
+</div>
 
 ---
 
 ### **Reconstruction Errors**
-
 Reconstruction errors for **Standard Autoencoders** are shown below:
-
-- **Normal Data Reconstruction Errors:**
-  ![Reconstruction Errors for Normal Data - AE](images/normalre-ae.png)
-
-- **Anomalous Data Reconstruction Errors:**
-  ![Reconstruction Errors for Anomalous Data - AE](images/anomalyre-ae.png)
+<div style="display: flex; flex-wrap: wrap; gap: 20px;">
+    <img src="images/normalre-ae.png" alt="Reconstruction Errors for Normal Data - AE" width="400">
+    <img src="images/anomalyre-ae.png" alt="Reconstruction Errors for Anomalous Data - AE" width="400">
+</div>
 
 ---
 
